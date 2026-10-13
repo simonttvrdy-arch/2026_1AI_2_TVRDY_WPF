@@ -6,7 +6,42 @@
         xmlns:local="clr-namespace:_2026_1AI_2_TVRDY_WPF"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Background="#FF39A923">
+        <Label x:Name="labelMeno" Content="Meno:" HorizontalAlignment="Left" Margin="66,53,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbMeno" HorizontalAlignment="Left" Margin="109,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#FFF010F1"/>
+        <Label Content="Priezvisko:" HorizontalAlignment="Left" Margin="45,84,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbPriezvisko" HorizontalAlignment="Left" Margin="110,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#FFF71DEF"/>
+        <Label Content="Dátum narodenia:" HorizontalAlignment="Left" Margin="5,115,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="dpNarodeniny" HorizontalAlignment="Left" Margin="115,116,0,0" VerticalAlignment="Top" Width="114"/>
+        <Button x:Name="btnPozdrav" Content="Pozdrav" HorizontalAlignment="Left" Margin="10,152,0,0" VerticalAlignment="Top" Height="37" Width="220" Click="btnPozdrav_Click" Background="#FFCACCD2"/>
+        <Image HorizontalAlignment="Left" Height="257" Margin="10,189,0,0" VerticalAlignment="Top" Width="220" Source="/emoji-meme.gif">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="/emoji-meme.gif" Stretch="Fill"/>
+            </Image.OpacityMask>
+        </Image>
+        <Image HorizontalAlignment="Left" Height="236" Margin="303,29,0,0" VerticalAlignment="Top" Width="206" Source="/1c66ac96770b1f88961312b8d47c5c34.jpg" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-16.129"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="/1c66ac96770b1f88961312b8d47c5c34.jpg"/>
+            </Image.OpacityMask>
+        </Image>
+        <Image HorizontalAlignment="Left" Height="233" Margin="467,240,0,0" VerticalAlignment="Top" Width="250" RenderTransformOrigin="0.5,0.5" Source="/601448566dfbe10018e00c5d.webp">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-2.618"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
 
     </Grid>
 </Window>

@@ -9,4 +9,16 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="1c66ac96770b1f88961312b8d47c5c34.jpg" />
+    <None Remove="601448566dfbe10018e00c5d.webp" />
+    <None Remove="emoji-meme.gif" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="1c66ac96770b1f88961312b8d47c5c34.jpg" />
+    <Resource Include="601448566dfbe10018e00c5d.webp" />
+    <Resource Include="emoji-meme.gif" />
+  </ItemGroup>
+
 </Project>
